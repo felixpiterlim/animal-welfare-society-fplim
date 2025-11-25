@@ -1,0 +1,108 @@
+body {
+    font-family: monospace;
+    margin: 0;
+    background: #fafafa;
+}
+
+header {
+    background: #ffccaa;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+}
+
+nav {
+    background: white;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.gallery img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.pet-card {
+    background: #ffffff;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    font-size: 150%;
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 10px 0px 10px 10px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 20px;
+    background: #ff9955;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.pet-info {
+    flex: 1;
+}
+
+.animal {
+    width: 25%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.intro {
+  width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 4s steps(50, end) 3s forwards, blink 0.05s step-end 5;
+  font-size: 18px;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink {
+  50% { border-color: transparent; }
+}
+
+
