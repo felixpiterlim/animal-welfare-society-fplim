@@ -4,14 +4,6 @@ import cat2 from './cat2.jpg';
 import dog1 from './dog1.jpg';
 import dog2 from './dog2.jpg';
 
-class Pet {
-  constructor(name, type, age) {
-    this.name = name;
-    this.type = type;
-    this.age = age;
-  }
-}
-
 function App() {
   return (
     <>
