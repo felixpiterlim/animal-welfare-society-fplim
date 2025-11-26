@@ -20,9 +20,9 @@ function App() {
 
       <section id="about">
         <h2>About Pet Heaven</h2>
-        <p className="intro">
+        <p>
           Pet Heaven, where we provide safe homes for abandoned cats and dogs.
-          </p>
+        </p>
 
       </section>
 

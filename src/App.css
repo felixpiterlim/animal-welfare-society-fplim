@@ -88,21 +88,4 @@ button {
     border-radius: 10px;
 }
 
-.intro {
-  width: 0;
-  white-space: nowrap;
-  overflow: hidden;
-  animation: typing 4s steps(50, end) 3s forwards, blink 0.05s step-end 5;
-  font-size: 18px;
-}
-
-@keyframes typing {
-  from { width: 0; }
-  to { width: 100%; }
-}
-
-@keyframes blink {
-  50% { border-color: transparent; }
-}
-
 
