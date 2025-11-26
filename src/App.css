@@ -1,91 +1,196 @@
 body {
-    font-family: monospace;
+    font-family: Monaco, monospace;
     margin: 0;
-    background: #fafafa;
+    background: #fff0e5;
 }
 
+/* HEADER */
 header {
     background: #ffccaa;
     padding: 20px;
     text-align: center;
-    font-size: 24px;
 }
 
-nav {
+.welcome-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.welcome-text {
     background: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 3px solid #ffa16b;
+    font-size: 32px;
+}
+
+.welcome-logo {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+/* NAVIGATION */
+nav {
+    background: #FFA8B1;
     padding: 10px;
     text-align: center;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-nav a {
+nav button {
     margin: 0 15px;
-    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    background: #FFA8B1;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
     font-weight: bold;
+    transition: 0.3s;
 }
 
-section {
-    padding: 20px;
+nav button:hover,
+.close-btn:hover,
+.submit-btn:hover {
+    background: #ffccaa;
+    color: black;
+}
+
+/* HERO SECTION */
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.hero-text {
+    max-width: 60%;
+}
+
+.hero-text h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.hero-text p {
+    font-size: 20px;
+}
+
+.hero-logo img {
+    max-width: 200px;
+    height: auto;
+}
+
+/* PET CARDS */
+.pet-section {
     max-width: 900px;
-    margin: auto;
+    margin: 40px auto;
+    padding: 0 20px;
 }
 
-.gallery img {
-    width: 180px;
-    height: 180px;
-    object-fit: cover;
-    margin: 10px;
-    border-radius: 10px;
+.pet-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
 }
 
 .pet-card {
     background: #ffffff;
     padding: 15px;
-    margin: 10px 0;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    font-size: 150%;
-
-    display: flex;
-    align-items: center;
-    gap: 20px;
+    text-align: center;
 }
 
-form {
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-input,
-textarea,
-select {
+.pet-card img.animal {
     width: 100%;
-    padding: 10px 0px 10px 10px;
-    margin-top: 8px;
-    margin-bottom: 16px;
-    border-radius: 6px;
-    border: 1px solid #ccc;
-}
-
-button {
-    padding: 10px 20px;
-    background: #ff9955;
-    border: none;
-    color: white;
-    border-radius: 8px;
-    cursor: pointer;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
 }
 
 .pet-info {
-    flex: 1;
+    margin: 10px 0;
 }
 
-.animal {
-    width: 25%;
-    height: auto;
-    border-radius: 10px;
+.adopt-btn,
+.close-btn,
+.submit-btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
 }
 
+.adopt-btn {
+    background: #ffccaa;
+    font-size: 18px;
+    width: 100%;
+    max-width: 200px;
+}
 
+.adopt-btn:hover {
+    background: #FFA8B1;
+}
+
+/* MODAL */
+.modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal {
+    background: #fff0e5;
+    padding: 30px;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 600px;
+    font-family: Monaco, monospace;
+    font-size: 24px;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.close-btn,
+.submit-btn {
+    background: #FFA8B1;
+    font-size: 20px;
+    width: auto;
+}
+
+.modal form input,
+.modal form textarea,
+.modal form select {
+    width: 100%;
+    padding: 12px 10px;
+    margin: 8px 0 16px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
+/* FOOTER */
+footer {
+    background: #ffccaa;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+    font-size: 18px;
+}
