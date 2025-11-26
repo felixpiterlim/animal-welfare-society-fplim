@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/animal-welfare-society-fplim/static/css/main.9dbcc9e2.css",
-    "main.js": "/animal-welfare-society-fplim/static/js/main.a884ea4f.js",
+    "main.css": "/animal-welfare-society-fplim/static/css/main.46a0f930.css",
+    "main.js": "/animal-welfare-society-fplim/static/js/main.3b2181ce.js",
     "static/js/453.e825ea0e.chunk.js": "/animal-welfare-society-fplim/static/js/453.e825ea0e.chunk.js",
     "static/media/dog2.jpg": "/animal-welfare-society-fplim/static/media/dog2.ffb27f5c0fc55eb15369.jpg",
     "static/media/dog1.jpg": "/animal-welfare-society-fplim/static/media/dog1.8fae50b52ff4a6c18928.jpg",
     "static/media/cat1.jpg": "/animal-welfare-society-fplim/static/media/cat1.2e9b1ff582728148b4a7.jpg",
     "static/media/cat2.jpg": "/animal-welfare-society-fplim/static/media/cat2.a465b86e62dddbe01a3a.jpg",
+    "static/media/logo.png": "/animal-welfare-society-fplim/static/media/logo.f36dfac3bfa73b81ab91.png",
     "index.html": "/animal-welfare-society-fplim/index.html",
-    "main.9dbcc9e2.css.map": "/animal-welfare-society-fplim/static/css/main.9dbcc9e2.css.map",
-    "main.a884ea4f.js.map": "/animal-welfare-society-fplim/static/js/main.a884ea4f.js.map",
+    "main.46a0f930.css.map": "/animal-welfare-society-fplim/static/css/main.46a0f930.css.map",
+    "main.3b2181ce.js.map": "/animal-welfare-society-fplim/static/js/main.3b2181ce.js.map",
     "453.e825ea0e.chunk.js.map": "/animal-welfare-society-fplim/static/js/453.e825ea0e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9dbcc9e2.css",
-    "static/js/main.a884ea4f.js"
+    "static/css/main.46a0f930.css",
+    "static/js/main.3b2181ce.js"
   ]
 }
